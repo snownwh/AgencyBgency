@@ -86,20 +86,10 @@
 	
 	<div id="sub_contents">
 		<div class="inner">
-			<div class="location">
-				<span>HOME</span>
-				<img src="../images/sub/lo_arrow.jpg" alt=">">
-				<span>depth1</span>
-				<img src="../images/sub/lo_arrow.jpg" alt=">">
-				<span>depth2</span>
-			</div>
+			<%@include file ="./location.jsp" %>
 			<div class="sub_tit">
 				<%@include file ="./title01.jsp" %>
 				<span></span>
 			</div>
-			<div class="depth02">
-				<a href="#">지난전시</a>
-				<a href="#" class="active">현재전시</a>
-				<a href="#">예정전시</a>
-			</div>
+				<%@include file ="./depth02.jsp" %>
 			<div class="sub_cont">
