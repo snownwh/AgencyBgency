@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <%
 String ifurl = request.getServletPath();  //프로젝트의 경로값만 가져옴
-System.out.println(ifurl);
+// System.out.println(ifurl);
 
 if (ifurl.contains("aboutus.jsp")){
 %>
@@ -49,7 +49,7 @@ if (ifurl.contains("notice.jsp")){
 <% 
 if (ifurl.contains("review.jsp")){
 %>
-<h2>FAQ</h2>
+<h2>리뷰보기</h2>
 <%
 }	
 %>	

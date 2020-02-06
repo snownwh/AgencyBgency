@@ -31,7 +31,7 @@
 				<span><img src="../images/main/header_dot.jpg" alt="·"></span>
 				<span><a href="/AgencyBgencyy/member/join.jsp">회원가입</a></span>
 				<span><img src="../images/main/header_dot.jpg" alt="·"></span>
-				<span><a href="#">공지사항</a></span>
+				<span><a href="/AgencyBgencyy/community/notice.jsp">공지사항</a></span>
 				<h1 class="logo"><a href="/AgencyBgencyy/main/main.jsp">
 					<img src="../images/main/logo.png" alt="모두의 전시" />
 				</a></h1>	
