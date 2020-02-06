@@ -1,4 +1,4 @@
-package KSJ;
+package KSJ.controller;
 
 public class test {
 
