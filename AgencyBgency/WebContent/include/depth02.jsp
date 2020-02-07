@@ -7,9 +7,9 @@ System.out.println(durl);
 if (durl.contains("exhibit.jsp")){
 %>
 <div class="depth02">
-	<a href="#">지난전시</a>
-	<a href="#" class="active">현재전시</a>
-	<a href="#">예정전시</a>
+	<a href="#" id="past">지난전시</a>
+	<a href="#" id="now" class="active">현재전시</a>
+	<a href="#" id="future">예정전시</a>
 </div>
 <%
 }	
